@@ -1,0 +1,12 @@
+{
+  "name": "ffirestore",
+  "displayName": "ffirestore",
+  "expo": {
+    "name": "ffirestore",
+    "slug": "ffirestore",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
