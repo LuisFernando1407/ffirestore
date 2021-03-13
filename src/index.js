@@ -9,13 +9,13 @@ import DefaultStatusBar from './components/StatusBar'
 export default function App() {
 
   const credentials = {
-    clientId: "****",
-    appId: "****",
-    apiKey: "****",
-    databaseURL: "****",
-    storageBucket: "****",
-    messagingSenderId: "****",
-    projectId: "****"
+    clientId: "764614417487-s59hi5p91heema67l3h6gn85ldhk8fdr.apps.googleusercontent.com",
+    appId: "1:764614417487:ios:4de4f98984ade60867de3a",
+    apiKey: "AIzaSyBsktdTOoZzd-i_EZAAuxjr5OjRQBP3280",
+    databaseURL: "",
+    storageBucket: "pdim-ffirestore.appspot.com",
+    messagingSenderId: "764614417487",
+    projectId: "pdim-ffirestore"
   }
 
   if (!firebase.apps.length) firebase.initializeApp(credentials) 

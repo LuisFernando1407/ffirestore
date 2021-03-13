@@ -6,10 +6,14 @@ import Header from '../src/components/Header'
 
 import Home from '../src/pages/Home'
 import Details from '../src/pages/Details'
+import Edit from '../src/pages/Edit'
+import Register from '../src/pages/Register'
 
 const Router = createStackNavigator({
         HomeScreen: Home,
-        DetailsScreen: Details
+        DetailsScreen: Details,
+        EditScreen: Edit,
+        RegisterScreen: Register
     }, {
         headerMode: 'screen',
         defaultNavigationOptions: ({ navigation }) => ({

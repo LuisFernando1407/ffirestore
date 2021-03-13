@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { Dimensions, FlatList, Text, TouchableOpacity } from 'react-native'
 import firestore from '@react-native-firebase/firestore'
 
-import { View, Divider, Content } from '../Home/style'
+import { View, Divider, Content, ContentButton } from '../Home/style'
+import Button from '../../components/Button'
 
 const Home = ({ navigation }) => {
     const { width } = Dimensions.get('window')
@@ -50,6 +51,11 @@ const Home = ({ navigation }) => {
                     (index, item) => index + item
                 }
             />
+
+            <ContentButton>
+                <Button title="Register" handle={() => navigation.navigate('RegisterScreen')} />
+            </ContentButton>
+                
         </View>
     )}
 
