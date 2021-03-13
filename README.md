@@ -8,7 +8,7 @@ Submodule of repository <a href="https://github.com/LuisFernando1407/pidm">PIDM<
 - App preview
 <p float="left">
   <img src='assets/screenshot/home.png' width='30%' height='30%'/>
-  <img src='assets/screenshot/register.png' width='30%' height='30%'/>
+  <img src='assets/screenshot/register.png' width='30%' height='30%'/><br>
   <img src='assets/screenshot/details.png' width='30%' height='30%'/>
   <img src='assets/screenshot/edit.png' width='30%' height='30%'/>
 </p>
